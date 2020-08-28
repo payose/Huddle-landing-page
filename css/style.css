@@ -1,0 +1,174 @@
+html{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+*{
+	margin: 0px
+}
+
+body{
+	width: 100%;
+	margin: auto;
+}
+
+/* ***************GENERAL STYLES*************** */
+p{
+	font-size:0.8rem;
+
+}
+
+.text-1{
+	width: 70%
+}
+
+.bg-pink{
+	padding: 25px 50px;
+	background-color: hsl(322, 100%, 66%);
+	cursor: pointer;
+	border-radius: 40px;
+	border:3px outset;
+	color: white;
+	font-size: 1rem;
+	margin: 10% 0px
+
+}
+
+
+.border-pink{
+	background-color: white;
+	border: 2px solid hsl(322, 100%, 66%);
+	color:hsl(322, 100%, 66%);
+	padding: 0.3em 0.5em;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size:1rem;
+}
+
+.doubles-image{
+	width: 80%;
+}
+
+/* ***************SMALL SCREENS*************** */
+.doubles{
+	margin: auto;
+	
+}
+
+.doubles div{
+	width: 80%;
+	margin: auto
+
+}
+
+.pale-blue-bg{
+	background-color: hsl(207, 100%, 98%);
+	
+}
+
+.pale-blue-bg-image{
+	height: 160px;
+	width: 100%;
+}
+
+.pale-blue-bg-top-1{
+	background-image: url("../images/bg-section-top-mobile-1.svg");	
+}
+
+.pale-blue-bg-bottom-1{
+	background-image: url("../images/bg-section-bottom-mobile-1.svg");
+	
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .doubles{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 50px;
+		justify-content: center;
+
+
+	}
+
+	.pale-blue-bg{
+		background-color: hsl(207, 100%, 98%);
+		flex-direction: row-reverse;
+		
+	}
+
+	.pale-blue-bg-image{
+		height: 160px;
+		width: 100%;
+	}
+
+	.pale-blue-bg-top-1{
+		background-image: url("../images/bg-section-top-desktop-1.svg");	
+	}
+
+	.pale-blue-bg-bottom-1{
+		background-image: url("../images/bg-section-bottom-desktop-1.svg");
+		
+	}
+
+	.doubles div{
+		margin: 50px 100px;
+		width: 50%;
+		padding: 0em 0.15em;
+		flex: 1 1 1;
+		flex-wrap: wrap;
+
+	}
+
+	.mockup{
+		width: 90%
+	}
+
+}
+
+.doubles-text{
+	font-size:0.75rem;
+
+}
+
+.doubles-h1{
+	font-size: 2rem
+}
+
+/* ***************HEADER STYLES*************** */
+header{
+	margin:10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+header img{
+	
+	width: 100%
+}
+
+header div{
+	width: 25vw;
+	height: 25%
+}
+/* *************** SECTION I (SECTION AFTER HEADER)*************** */
+.center{
+	margin: auto;
+	display: block;
+	width: 80%;
+	text-align: center;
+}
+
+}
+.mockup{
+	width: 70%
+}
+
+
+/* ***************SECTION II*************** */
+/* ***************SECTION III*************** */
+/* ***************SECTION IV*************** */
+/* ***************SECTION V*************** */
+/* ***************FOOTER STYLES*************** */
